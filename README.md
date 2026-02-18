@@ -36,8 +36,8 @@ Estructurar el contenido de una página web mediante etiquetas HTML.
     developer."
 - Resalta las palabras "quality ingredients" con la etiqueta de texto importante
 
-### Iteración 5: Texto preformateado
-- Utiliza la etiqueta de texto preformateado e introduce la siguiente frase:  "Good code & good coffee, everyday"
+### Iteración 5: Citas
+- Utiliza la etiqueta de cita en bloque para destacar la siguiente frase:  "Good code & good coffee, everyday"
 
 ### Iteración 6: Listas
 - Crea un menú para indicar el café que servimos.
