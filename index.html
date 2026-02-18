@@ -9,33 +9,124 @@
 
   <body>
     <header>
-      <nav><a href="">HOME</a></nav>
-      <nav><a href="">ABOUT US</a></nav>
-      <nav><a href="">DAILY OFFER</a></nav>
-      <nav><a href="">CONTACT US</a></nav>
+      <nav>
+        <a href="">HOME</a>
+        <a href="">ABOUT US</a>
+        <a href="">DAILY OFFER</a>
+        <a href="">CONTACT US</a>
+      </nav>
     </header>
     <main>
-      <h1>The Good Breakfast</h1>
+      <section>
+        <h1>The Good Breakfast</h1>
 
-      <p>Here you will find all sorts of delicious treats</p>
+        <p>Here you will find all sorts of delicious treats</p>
 
-      <p class="text">
-        Our commitment is to use impeccable sourcing and <mark>quality ingredients</mark>  to
-        help you code.An ongoing collaboration between the classroom staff and
-        the development team allow us to iterate our content and give our
-        students the coding 'fruits and vegetables' -mainly made of JavaScript-
-        that they need to grow as a healthy developer.
-      </p>
+        <p class="text">
+          Our commitment is to use impeccable sourcing and
+          <mark>quality ingredients</mark> to help you code.An ongoing
+          collaboration between the classroom staff and the development team
+          allow us to iterate our content and give our students the coding
+          'fruits and vegetables' -mainly made of JavaScript- that they need to
+          grow as a healthy developer.
+        </p>
+      </section>
 
-      <footer></footer>
+      <section>
+        <!-- <h2>Menu</h2>
+        <h3>Café</h3>
+        <ul>
+          <li>Café Latte</li>
+          <li>American</li>
+          <li>Machiatto</li>
+          <li>Capuccino</li>
+        </ul>
+
+        <h3>Té</h3>
+        <ul>
+          <li>Earl Grey</li>
+          <li>Green Tea</li>
+          <li>Rooibos</li>
+        </ul> -->
+
+        <table>
+          <caption>
+            <h3>Menu</h3>
+          </caption>
+          <tr>
+            <th>Coffees</th>
+            <th>Té</th>
+          </tr>
+          <tr>
+            <td>Café Latte</td>
+            <td>Earl Grey</td>
+          </tr>
+          <tr>
+            <td>American</td>
+            <td>Green Tea</td>
+          </tr>
+          <tr>
+            <td>Machiatto</td>
+            <td>Rooibos</td>
+          </tr>
+          <tr>
+            <td>Capuccino</td>
+            <td></td>
+          </tr>
+        </table>
+      </section>
+
+      <form>
+        <fieldset>
+          <legend>Make a Reservation</legend>
+
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" required /><br />
+
+          <label for="option">Choose an option:</label>
+          <select id="option" name="option">
+            <option value="Snack">Snack</option>
+            <option value="Breakfast">Breakfast</option></select
+          ><br />
+
+          <label for="people">Number of people:</label>
+          <select id="people" name="people">
+            <option value="1">1 person</option>
+            <option value="2">2 people</option>
+            <option value="3">3 people</option>
+            <option value="4">4 people</option></select
+          ><br />
+
+          <button type="submit">Book Table</button>
+        </fieldset>
+      </form>
+
+      <footer>
+        <blockquote>"Good code & good coffee, everyday"</blockquote>
         <figure>
-          <img
+          <!-- <img
             src="https://i.postimg.cc/htxcJGB6/ZKkCecn.jpg"
             alt="Breakfast"
-          />
+          /> -->
+          <video
+            src="../the-good-breakfast/public/46989-449623829_medium.mp4"
+            autoplay
+            loop
+            muted
+            playsinline
+            class="banner-video"
+          ></video>
           <p>powered by biscuit.</p>
         </figure>
         <p>From the oven with love</p>
+        <p>
+          <a href="mailto:contact@urbantoast.com">Contact Us</a>
+        </p>
+        <p>
+          <strong>Opening Hours:</strong><br />
+          Monday - Friday: 7:00 AM - 4:00 PM<br />
+          Saturday & Sunday: 8:00 AM - 4:00 PM<br />
+        </p>
       </footer>
     </main>
   </body>

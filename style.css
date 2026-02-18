@@ -2,9 +2,31 @@ body {
   background-color: blanchedalmond;
 }
 header {
-  display: flex;
-  gap: 10px;
+  a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+
+  a:hover {
+    color: rgb(52, 167, 132);
+  }
 }
 .text {
   width: 35%;
+}
+
+table,
+th,
+tr,
+td {
+  border: 1px solid black;
+  margin: 0 10px 10px 0;
+  padding: 10px;
+}
+.banner-video {
+  width: 80%;
+  height: 650px;
+  object-fit: cover;
 }
