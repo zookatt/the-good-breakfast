@@ -1,0 +1,10 @@
+body {
+  background-color: blanchedalmond;
+}
+header {
+  display: flex;
+  gap: 10px;
+}
+.text {
+  width: 35%;
+}
