@@ -3,111 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Urban Toast</title>
   </head>
 
   <body>
-    <header>
+    <header id="home">
       <nav>
-        <a href="">HOME</a>
-        <a href="">ABOUT US</a>
-        <a href="">DAILY OFFER</a>
-        <a href="">CONTACT US</a>
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT US</a>
+        <a href="#daily-offer">DAILY OFFER</a>
+        <a href="#contact">CONTACT US</a>
       </nav>
     </header>
     <main>
-      <section>
-        <h1>The Good Breakfast</h1>
-
-        <p>Here you will find all sorts of delicious treats</p>
-
-        <p class="text">
-          Our commitment is to use impeccable sourcing and
-          <mark>quality ingredients</mark> to help you code.An ongoing
-          collaboration between the classroom staff and the development team
-          allow us to iterate our content and give our students the coding
-          'fruits and vegetables' -mainly made of JavaScript- that they need to
-          grow as a healthy developer.
-        </p>
-      </section>
-
-      <section>
-        <!-- <h2>Menu</h2>
-        <h3>Café</h3>
-        <ul>
-          <li>Café Latte</li>
-          <li>American</li>
-          <li>Machiatto</li>
-          <li>Capuccino</li>
-        </ul>
-
-        <h3>Té</h3>
-        <ul>
-          <li>Earl Grey</li>
-          <li>Green Tea</li>
-          <li>Rooibos</li>
-        </ul> -->
-
-        <table>
-          <caption>
-            <h2>Menu</h2>
-          </caption>
-          <tr>
-            <th>Coffees</th>
-            <th>Té</th>
-          </tr>
-          <tr>
-            <td>Café Latte</td>
-            <td>Earl Grey</td>
-          </tr>
-          <tr>
-            <td>American</td>
-            <td>Green Tea</td>
-          </tr>
-          <tr>
-            <td>Machiatto</td>
-            <td>Rooibos</td>
-          </tr>
-          <tr>
-            <td>Capuccino</td>
-            <td></td>
-          </tr>
-        </table>
-      </section>
-
-      <form>
-        <fieldset>
-          <legend>Make a Reservation</legend>
-
-          <label for="name">Your Name:</label>
-          <input type="text" id="name" name="name" required />
-
-          <label for="option">Choose an option:</label>
-          <select id="option" name="option">
-            <option value="Snack">Snack</option>
-            <option value="Breakfast">Breakfast</option></select
-          >
-
-          <label for="people">Number of people:</label>
-          <select id="people" name="people">
-            <option value="1">1 person</option>
-            <option value="2">2 people</option>
-            <option value="3">3 people</option>
-            <option value="4">4 people</option></select
-          >
-
-          <button type="submit">Book Table</button>
-        </fieldset>
-      </form>
-
-      <footer>
-        <blockquote>"Good code & good coffee, everyday"</blockquote>
+      <section class="banner">
+        <section class="banner-content">
+          <h1>The Good Breakfast</h1>
+          <p>Here you will find all sorts of delicious treats</p>
+          <blockquote>
+            <p>"Good code & good coffee, everyday"</p>
+            <button type="button">Reserve Your Breakfast</button>
+          </blockquote>
+        </section>
         <figure>
-          <!-- <img
-            src="https://i.postimg.cc/htxcJGB6/ZKkCecn.jpg"
-            alt="Breakfast"
-          /> -->
           <video
             src="../the-good-breakfast/public/46989-449623829_medium.mp4"
             autoplay
@@ -118,9 +41,77 @@
           ></video>
           <p>powered by biscuit.</p>
         </figure>
+      </section>
+      <section id="about">
+        <h2>About Us</h2>
+        <p class="text">
+          Our commitment is to use impeccable sourcing and
+          <mark>quality ingredients</mark> to help you code.An ongoing
+          collaboration between the classroom staff and the development team
+          allow us to iterate our content and give our students the coding
+          'fruits and vegetables' -mainly made of JavaScript- that they need to
+          grow as a healthy developer.
+        </p>
+      </section>
+      <section id="daily-offer">
+        <h2>Daily Offer</h2>
+        <table>
+          <caption>
+            <h3>Menu</h3>
+          </caption>
+          <tr>
+            <th>Coffees</th>
+            <th>Té</th>
+          </tr>
+          <tr>
+            <td>Café Latte.....5</td>
+            <td>Earl Grey......3</td>
+          </tr>
+          <tr>
+            <td>American.....2</td>
+            <td>Green Tea...6</td>
+          </tr>
+          <tr>
+            <td>Machiatto....7</td>
+            <td>Rooibos........4</td>
+          </tr>
+          <tr>
+            <td>Capuccino...7</td>
+            <td></td>
+          </tr>
+        </table>
+      </section>
+
+      <form>
+        <fieldset>
+          <legend><h3>Make a Reservation</h3></legend>
+
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="option">Choose an option:</label>
+          <select id="option" name="option">
+            <option value="Snack">Snack</option>
+            <option value="Breakfast">Breakfast</option>
+          </select>
+
+          <label for="people">Number of people:</label>
+          <select id="people" name="people">
+            <option value="1">1 person</option>
+            <option value="2">2 people</option>
+            <option value="3">3 people</option>
+            <option value="4">4 people</option>
+          </select>
+
+          <button type="submit">Book Table</button>
+        </fieldset>
+      </form>
+
+      <footer id="contact">
         <p>From the oven with love</p>
+        <h2>Contact Us</h2>
         <p>
-          <a href="mailto:contact@urbantoast.com">Contact Us</a>
+          <a href="mailto:contact@urbantoast.com">contact@urbantoast.com</a>
         </p>
         <p>
           <strong>Opening Hours:</strong><br />
